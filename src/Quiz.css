@@ -1,0 +1,40 @@
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .quiz-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .quiz-question {
+    margin: 20px 0;
+    font-size: 1.2em;
+  }
+  
+  .quiz-options button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .quiz-lives {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .quiz-progress {
+    margin-top: 10px;
+    font-size: 0.9em;
+  }
+  

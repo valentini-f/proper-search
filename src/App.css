@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f9;
+}
+
+.browser {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.tabs {
+  display: flex;
+  background: #43b047;
+  color: white;
+  padding: 10px;
+}
+
+.tabs button {
+  margin: 0 10px;
+  padding: 10px;
+  background: white;
+  color: #820404;
+  border: none;
+  cursor: pointer;
+}
+
+.tabs button:hover {
+  background: #fbd000;
+  color: white;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: #acd8a7;
+}
+
+.nav-bar button {
+  margin: 0 5px;
+  padding: 10px;
+}
+
+.nav-bar input {
+  flex: 1;
+  padding: 10px;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.content {
+  padding: 20px;
+}
+
+.instructions {
+  background: #fffae6;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ffe58f;
+}
+
+.results {
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  height: 300px; /* Fixed height */
+  overflow-y: auto; /* Scrollable results */
+}
+
+.result-item {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #f9f9f9;
+  cursor: pointer;
+}
+
+.result-item:hover {
+  background: #e6f7ff;
+  border-color: #91d5ff;
+}
