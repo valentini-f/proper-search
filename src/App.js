@@ -144,7 +144,7 @@ const App = () => {
   };
 
   const handleScenarioChange = (newScenario) => {
-    if (newScenario === 3 && scenario !== 3) {
+    if (newScenario === 3) {
       setIsQuizActive(true); // Start the quiz
     }
     setScenario(newScenario);
@@ -158,7 +158,7 @@ const App = () => {
         "Ψάξε ξανά 'τοποθεσίες που μπορεί να βρίσκεται η Πριγκίπισσα Πιτς' απλά αυτή τη φορά παράλειψε τα αποτελέσματα που περιέχουν τις λέξεις διακοπές, μένει και βλογκ."
       );
     } else if (newScenario === 3) {
-      setInstructions("Game cleared.");
+
     }
   };
   
